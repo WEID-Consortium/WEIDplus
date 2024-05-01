@@ -1,0 +1,52 @@
+{
+  "name": "weid-consortium/weidplus",
+  "type": "metapackage",
+  "license": "MIT",
+  "description": "Composer Metapackage to extend OIDplus by the WEIDplus extension FULL LIST. (To avoid adding everything manually)",
+  "homepage": "https://weid.info/plus/",
+  "authors": [
+		{
+			"name": "WEID-Consortium",
+			"email": "co@weid.info",
+			"homepage": "https:\/\/weid.info"
+		},
+		{
+			"name": "Till Wehowski",
+			"email": "software@frdl.de",
+			"homepage": "https:\/\/webfan.de"
+		},
+		{
+			"name": "Daniel Marschall",
+			"email": "info@daniel-marschall.de",
+			"homepage": "https://www.daniel-marschall.de/"
+		}
+  ],
+  "keywords": [
+    "oidplus", "extension", "oid", "weid", "registry"
+  ],
+  "repositories": [
+    {
+			"type": "composer", 
+			"url": "https://oidplus-plugins.repo.pkg.dev.frdl.de"
+		},
+		 {"type": "composer", "url": "https://frdl.repo.pkg.dev.frdl.de"},
+		 {"type": "composer", "url": "https://weid.repo.pkg.dev.frdl.de"}
+  ],
+  "require": {
+		"frdl/oiplus-composer-plugin" : "*",	 
+		"frdl/composer-adapter" : "*",
+		"frdl/oidplus-io4-bridge-plugin" : "*",	 
+		"frdl/oid-connect-rdap" : "*",
+		"frdl/oidplus-frdljs-cdn-proxy-plugin" : "*",
+    "frdl/oidplus-frdlweb-rdap": "*",
+    "frdl/oidplus-rdap-service-object-type-plugin": "*",
+		"frdl/frdl-oidplus-plugin-type-pen": "*",
+		"frdl/oidplus-plugin-alternate-id-tracking": "*",
+		"frdl/iana-enterprise-numbers-fetcher": "*",	 
+			 
+	   "knplabs/packagist-api" : "*",
+	   "frdl/composer-adapter" : "*",
+	   "frdl/event-module" : "*",	
+	   "yosymfony/resource-watcher" : "*"
+  }
+}
