@@ -34,7 +34,6 @@
   ],
   "require": {
 		"frdl/oiplus-composer-plugin" : "*",	 
-		"frdl/composer-adapter" : "*",
 		"frdl/oidplus-io4-bridge-plugin" : "*",	 
 		"frdl/oid-connect-rdap" : "*",
 		"frdl/oidplus-frdljs-cdn-proxy-plugin" : "*",
